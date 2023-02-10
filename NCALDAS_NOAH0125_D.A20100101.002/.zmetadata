@@ -1,0 +1,166 @@
+{
+    "metadata": {
+        ".zattrs": {
+            "DODS_EXTRA.Unlimited_Dimension": "time",
+            "DX": 0.125,
+            "DY": 0.125,
+            "MAP_PROJECTION": "EQUIDISTANT CYLINDRICAL",
+            "SOUTH_WEST_CORNER_LAT": 25.0625,
+            "SOUTH_WEST_CORNER_LON": -124.9375,
+            "conventions": "CF-1.6",
+            "history": "created on date: 2017-02-02T18:54:38.203\n2022-03-31 19:40:58 GMT Hyrax-1.16.3 https://hydro1.gesdisc.eosdis.nasa.gov/opendap/hyrax/NCALDAS/NCALDAS_NOAH0125_D.2.0/2010/01/NCALDAS_NOAH0125_D.A20100101.002.nc4.nc4?Tair_f[0:1:0][0:1:223][0:1:463]",
+            "institution": "NASA GSFC",
+            "missing_value": -9999.0,
+            "references": "Kumar_etal_EMS_2006, Peters-Lidard_etal_ISSE_2007",
+            "source": "Noah-3.3",
+            "time_definition": "daily average",
+            "title": "NCA-LDAS Noah-3.3 LIS land surface model output",
+            "version": "version 2",
+            "websites": "http://ldas.gsfc.nasa.gov/NCA-LDAS/ ; http://lis.gsfc.nasa.gov/"
+        },
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "Tair_f/.zarray": {
+            "chunks": [
+                1,
+                112,
+                464
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": -9999.0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1,
+                224,
+                464
+            ],
+            "zarr_format": 2
+        },
+        "Tair_f/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "add_offset": 0.0,
+            "cell_methods": "time: mean",
+            "long_name": "Temperature",
+            "missing_value": -9999.0,
+            "scale_factor": 1.0,
+            "standard_name": "air_temperature",
+            "units": "K",
+            "vmax": 297.015625,
+            "vmin": 240.52000427246094
+        },
+        "lat/.zarray": {
+            "chunks": [
+                224
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": -9999.0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                224
+            ],
+            "zarr_format": 2
+        },
+        "lat/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "lat"
+            ],
+            "add_offset": 0.0,
+            "long_name": "latitude",
+            "missing_value": -9999.0,
+            "scale_factor": 1.0,
+            "standard_name": "latitude",
+            "units": "degrees_north",
+            "vmax": 52.9375,
+            "vmin": 25.0625
+        },
+        "lon/.zarray": {
+            "chunks": [
+                464
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": -9999.0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                464
+            ],
+            "zarr_format": 2
+        },
+        "lon/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "lon"
+            ],
+            "add_offset": 0.0,
+            "long_name": "longitude",
+            "missing_value": -9999.0,
+            "scale_factor": 1.0,
+            "standard_name": "longitude",
+            "units": "degrees_east",
+            "vmax": -67.0625,
+            "vmin": -124.9375
+        },
+        "time/.zarray": {
+            "chunks": [
+                1
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1
+            ],
+            "zarr_format": 2
+        },
+        "time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "begin_date": "20100101",
+            "begin_time": "000000",
+            "bounds": "time_bnds",
+            "calendar": "proleptic_gregorian",
+            "end_date": "20100102",
+            "end_time": "000000",
+            "long_name": "time",
+            "time_increment": "1",
+            "units": "days since 1979-01-02"
+        }
+    },
+    "zarr_consolidated_format": 1
+}

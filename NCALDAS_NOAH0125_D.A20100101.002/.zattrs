@@ -1,0 +1,18 @@
+{
+    "DODS_EXTRA.Unlimited_Dimension": "time",
+    "DX": 0.125,
+    "DY": 0.125,
+    "MAP_PROJECTION": "EQUIDISTANT CYLINDRICAL",
+    "SOUTH_WEST_CORNER_LAT": 25.0625,
+    "SOUTH_WEST_CORNER_LON": -124.9375,
+    "conventions": "CF-1.6",
+    "history": "created on date: 2017-02-02T18:54:38.203\n2022-03-31 19:40:58 GMT Hyrax-1.16.3 https://hydro1.gesdisc.eosdis.nasa.gov/opendap/hyrax/NCALDAS/NCALDAS_NOAH0125_D.2.0/2010/01/NCALDAS_NOAH0125_D.A20100101.002.nc4.nc4?Tair_f[0:1:0][0:1:223][0:1:463]",
+    "institution": "NASA GSFC",
+    "missing_value": -9999.0,
+    "references": "Kumar_etal_EMS_2006, Peters-Lidard_etal_ISSE_2007",
+    "source": "Noah-3.3",
+    "time_definition": "daily average",
+    "title": "NCA-LDAS Noah-3.3 LIS land surface model output",
+    "version": "version 2",
+    "websites": "http://ldas.gsfc.nasa.gov/NCA-LDAS/ ; http://lis.gsfc.nasa.gov/"
+}

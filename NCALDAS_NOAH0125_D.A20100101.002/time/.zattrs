@@ -1,0 +1,14 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time"
+    ],
+    "begin_date": "20100101",
+    "begin_time": "000000",
+    "bounds": "time_bnds",
+    "calendar": "proleptic_gregorian",
+    "end_date": "20100102",
+    "end_time": "000000",
+    "long_name": "time",
+    "time_increment": "1",
+    "units": "days since 1979-01-02"
+}
